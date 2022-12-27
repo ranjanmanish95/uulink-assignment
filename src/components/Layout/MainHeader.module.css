@@ -1,0 +1,44 @@
+
+.header {
+  width: 100%;
+  height: 5rem;
+  background-color: #0f0f0f;
+  padding: 0 10%;
+}
+
+.header nav {
+  height: 100%;
+}
+
+.header ul {
+  height: 100%;
+  list-style: none;
+  display: flex;
+  padding: 0;
+  margin: 0;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.header li {
+  margin: 0 1rem;
+  width: 5rem;
+}
+
+.header a {
+  color: white;
+  text-decoration: none;
+  background-color: #19191a;
+  width: 5rem;
+  padding: 0;
+  border: none;
+}
+
+.header a:hover,
+.header a:active,
+.header a.active {
+  color: #d0d6de;
+  padding-bottom: 0.25rem;
+  border-bottom: 4px solid #95bcf0;
+}
+
